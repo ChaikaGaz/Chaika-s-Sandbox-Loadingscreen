@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "backgrounds/images/touhou01.jpg";
+var l_background = "backgrounds/videos/glimmering.webm";
 
 /*(Image-background only)
 Place one or more images
@@ -56,7 +56,7 @@ var l_bgImages = [
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 /*(Image-background only)
 Delay between background images changes
@@ -86,11 +86,14 @@ var l_musicDisplay = true;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
-	(ogg: "songs/Touhou - Necrofantasia.ogg", name: "Touhou - Necrofantasia")
+	(ogg: "songs/Touhou - Necrofantasia.ogg", name: "Touhou - Necrofantasia"),
+	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
+	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
-var l_musicRandom = true;
+var l_musicRandom = false;
 
 /*Music volume
 Choose a value between 0 and 100*/
