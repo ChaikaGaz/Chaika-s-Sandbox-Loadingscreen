@@ -9,11 +9,11 @@
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "images/logo.png";
+var l_serverImage = "";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "";
+var l_serverName = "Chaika's Sandbox";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -49,14 +49,16 @@ var l_background = "backgrounds/videos/glimmering.webm";
 /*(Image-background only)
 Place one or more images
 Multiple images will automatically shuffle between them*/
-var l_bgImages = [
+var l_bgImages = [ backgrounds/images/touhou01.jpg,
+                   backgrounds/images/touhou02.jpg,
+				   backgrounds/images/touhou03.jpg
 	"backgrounds/images/touhou01.jpg",
 	"backgrounds/images/touhou02.jpg",
 	"backgrounds/images/touhou03.jpg"
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 /*(Image-background only)
 Delay between background images changes
@@ -73,7 +75,7 @@ var l_bgOverlay = true;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 50;
+var l_bgDarkening = 25;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
@@ -88,7 +90,8 @@ var l_musicPlaylist = [
 	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
 	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
 	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"}
+	{youtube: "-7VeTkLKdDw", name: "Departure"},
+	(ogg: "songs/Touhou - Necrofantasia.ogg", name: "Touhou - Necrofantasia")
 ];
 
 /*Random music order?*/
