@@ -4,12 +4,12 @@
  / __| |/ _ \/ _ \ |/ / |    / _ \ / _` |/ _` |
  \__ \ |  __/  __/   <| |___| (_) | (_| | (_| |
  |___/_|\___|\___|_|\_\______\___/ \__,_|\__,_|
-    version 2.04
+    version 2.05
 */
 
 /*URL for the server logo
 Leave it blank to use text instead*/
-var l_serverImage = "";
+var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
@@ -49,16 +49,14 @@ var l_background = "backgrounds/videos/glimmering.webm";
 /*(Image-background only)
 Place one or more images
 Multiple images will automatically shuffle between them*/
-var l_bgImages = [ backgrounds/images/touhou01.jpg,
-                   backgrounds/images/touhou02.jpg,
-				   backgrounds/images/touhou03.jpg
+var l_bgImages = [
 	"backgrounds/images/touhou01.jpg",
 	"backgrounds/images/touhou02.jpg",
 	"backgrounds/images/touhou03.jpg"
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = false;
+var l_bgImagesRandom = true;
 
 /*(Image-background only)
 Delay between background images changes
@@ -75,7 +73,7 @@ var l_bgOverlay = true;
 
 /*Background darkening amount
 0 for none (0%), 100 for pitch black (100%)*/
-var l_bgDarkening = 25;
+var l_bgDarkening = 50;
 
 /*Music player
 'true' or 'false' to enable music in the background*/
