@@ -13,7 +13,7 @@ var l_serverImage = "images/logo.png";
 
 /*Custom server name configuration
 Leave it blank for automatic server name*/
-var l_serverName = "Chaika's Sandbox";
+var l_serverName = "sleekLoad 2";
 
 /*Use a video for the background?
 Otherwise it will just use images*/
@@ -88,8 +88,7 @@ var l_musicPlaylist = [
 	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
 	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
 	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"},
-	(ogg: "songs/Touhou - Necrofantasia.ogg", name: "Touhou - Necrofantasia")
+	{youtube: "-7VeTkLKdDw", name: "Departure"}
 ];
 
 /*Random music order?*/
