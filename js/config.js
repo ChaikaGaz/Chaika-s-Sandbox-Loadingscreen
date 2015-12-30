@@ -44,7 +44,7 @@ Avaiable options:
 
 You can add custom backgrounds
 Just make sure it is at webm VP8 format */
-var l_background = "";
+var l_background = "backgrounds/images/touhou01.jpg";
 
 /*(Image-background only)
 Place one or more images
@@ -86,10 +86,7 @@ var l_musicDisplay = true;
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
 	{ogg: "songs/Lullaby of Deserted Hell.ogg", name: "Lullaby of Deserted Hell"},
-	(ogg: "songs/Touhou - Necrofantasia.ogg", name: "Touhou - Necrofantasia"),
-	{youtube: "j0PA0PX7lKo", name: "セプテットはディナーと共に"},
-	{youtube: "yHZfHPhNjXo", name: "いざオペラ座へ"},
-	{youtube: "-7VeTkLKdDw", name: "Departure"}
+	(ogg: "songs/Touhou - Necrofantasia.ogg", name: "Touhou - Necrofantasia")
 ];
 
 /*Random music order?*/
