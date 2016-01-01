@@ -58,7 +58,7 @@ var l_bgImages = [ backgrounds/images/touhou01.jpg,
 ];
 
 /*Random background images order?*/
-var l_bgImagesRandom = true;
+var l_bgImagesRandom = false;
 
 /*(Image-background only)
 Delay between background images changes
